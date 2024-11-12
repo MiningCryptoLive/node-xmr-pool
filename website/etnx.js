@@ -1,21 +1,18 @@
-var api = "//110.42.214.102:8117";
-var coinUnits = 1000000000000;
-var poolHost = "pool.electronero.org";
+var api = "https://xmr.solopool.us/api";
+var poolHost = "xmr.solopool.us";
 var showStatus = true; // set to false if you want to hide the poolStatus
 // create poolStatus with HTML, or Text.
-var poolStatus = "<p>  11/11/2021: Mining is stable. </p>";
+var poolStatus = "<p>  Welcome </p>";
 
-var irc = "irc.freenode.net/#etnx-pools";
-
-var email = "support@support.etnx.pool";
+var email = "support@miningcryptolive@gmail.com";
 
 // var cryptonatorWidget = ["{symbol}-BTC", "{symbol}-USD", "{symbol}-EUR"];
 var cryptonatorWidget = [];
 
 var easyminerDownload = "#";
 
-var blockchainExplorer = "https://localmonero.co/blocks/block/{id}";
+var blockchainExplorer = "https://blockchair.com/monero/blocks/block/{id}";
 
-var transactionExplorer = "https://localmonero.co/blocks/tx/{id}";
+var transactionExplorer = "https://blockchair.com/monero/blocks/tx/{id}";
 
 var themeCss = "themes/default.css";
